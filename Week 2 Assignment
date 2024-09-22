@@ -1,0 +1,189 @@
+<!-- this is the code for index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title> JavaJam </title>
+    <h1 align = "center"> JavaJam Coffee House</h1>
+    <hr>
+    <nav align = "center">
+        <a href = "index.html"> Home </a> &nbsp;
+        <a href = "menu.html"> Menu </a> &nbsp;
+        <a href = "music.html"> Music </a> &nbsp;
+        <a href = "jobs.html"> Jobs </a>
+    </nav>
+
+    <h2> Relax at JavaJam <h2>
+    <br>
+    <br>
+    <br>
+
+    <h3> We offer: <h3>
+        <ul>
+            <li> <i>Specialty, Coffee, and Tea</i></li>
+            <li> <i>Bagels, Muffins, and Organic Snacks</i></li>
+            <li> <i>Music and Poetry Readings</i></li>
+            <li> <i>Open Mic Night</i></li>
+        </ul>
+
+    <div>
+        54321 Route 42 <br>
+        Ellison Bay, WI 54210 <br>
+        1-888-555-5555
+    </div>
+
+    <footer>
+        <h6>
+            <i>Copyright&copy; 2021 JavaJam Coffee House</i><br>
+            <a href =><i>yourfirstname@yourlastname</i></a>
+        </h6>
+    </footer>
+
+</body>
+</html>
+
+<!-- this is the code for menu.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title> JavaJam </title>
+    <h1 align = "center"> JavaJam Coffee House</h1>
+    <hr>
+    <nav align = "center">
+        <a href = "index.html"> Home </a> &nbsp;
+        <a href = "menu.html"> Menu </a> &nbsp;
+        <a href = "music.html"> Music </a> &nbsp;
+        <a href = "jobs.html"> Jobs </a>
+    </nav>
+
+    <h2> Coffee at JavaJam</h2>
+
+    <h4> Just Java </h4>
+        <pre> Regular house blend, decaffeinated coffee, or flavour of the day. 
+            <b>Endless cup $2.00</b> </pre>
+    <h4> Cafe Au Lait </h4>
+        <pre> House blended coffee infused into a smooth, steamed milk. 
+            <b>Single $2.00 Double $3.00</b> </pre>
+    <h4> Iced Capucino </h4>
+        <pre> Sweetened espresso blended with icy-cold milk and served in a chilled glass. 
+            <b>Single $4.75 Double $5.75</b> </pre>
+
+    <footer>
+        <h6>
+            <i>Copyright&copy; 2021 JavaJam Coffee House</i><br>
+            <a href =><i>yourfirstname@yourlastname</i></a>
+        </h6>
+    </footer>
+
+</body>
+</html>
+
+<!-- this is the code for music.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title> JavaJam </title>
+    <h1 align = "center"> JavaJam Coffee House</h1>
+    <hr>
+    <nav align = "center">
+        <a href = "index.html"> Home </a> &nbsp;
+        <a href = "menu.html"> Menu </a> &nbsp;
+        <a href = "music.html"> Music </a> &nbsp;
+        <a href = "jobs.html"> Jobs </a>
+    </nav>
+
+    <h2> Music at JavaJam</h2>
+    <p> The first night of each at JavaJam is a special night. 
+        Join us from 8pm to 11pm for some music you won't want to miss!
+    </p>
+    <p><b>January</b></p>
+    <image src = "melaniethumb.jpg" alt="Melaniethumb"/> Melanie Morris entertains with her melodic folk style.
+    <p><b>February</b></p>
+    <image src = "gregthumb.jpg" alt = "Tahoe Greg"/> Tahoe Greg is back from his tour. New songs, new stories.
+
+    <footer>
+        <h6>
+            <i>Copyright&copy; 2021 JavaJam Coffee House</i><br>
+            <a href =><i>yourfirstname@yourlastname</i></a>
+        </h6>
+    </footer>
+
+</body>
+</html>
+
+<!-- this is the code for jobs.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <title> JavaJam </title>
+    <h1 align = "center"> JavaJam Coffee House</h1>
+    <hr>
+    <nav align = "center">
+        <a href = "index.html"> Home </a> &nbsp;
+        <a href = "menu.html"> Menu </a> &nbsp;
+        <a href = "music.html"> Music </a> &nbsp;
+        <a href = "jobs.html"> Jobs </a>
+    </nav>
+
+    <h2> Jobs at JavaJam</h2>
+
+    <p> Want to work at JavaJam? Fill out the form below to start your application. <br> Required fields are marked with an asterisk.
+
+    
+    
+    <form>
+        <p> *Name <input type = "text">
+        <p> *E-mail <input type = "email">
+        <p> *Experience <input type = "text">
+        <p> Select job position 
+            <select>
+                <option value="null"></option>
+                <option value="Barista">Barista</option>
+                <option value="Waiter">Waiter</option>
+                <option value="Musician">Musician</option>
+                <option value="Manager">Manager</option>
+            </select>
+
+        <p> preferred Interview Data and Time
+            <input type = "datetime-local">
+        <p> Upload your photo
+            <input type ="file">
+        <br>
+        <br>
+        <a href = "http//webdevbasics.net/scripts/javajam8.php"><input type="submit" value = "Apply Now"/></a>
+
+        <method="post" action = "http//webdevbasics.net/scripts/javajam8.php"/>
+        </form>
+
+        <footer>
+            <h6>
+                <i>Copyright&copy; 2021 JavaJam Coffee House</i><br>
+                <a href =><i>yourfirstname@yourlastname</i></a>
+            </h6>
+        </footer>
+    
+    </body>
+    </html>
