@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Stylesheets/javajam.css">
+</head>
+<body>
+<div id="wrapper">
+    <title> JavaJam </title>
+    <h1> JavaJam Coffee House</h1>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href = "index.html"> Home </a> &nbsp;</li>
+            <li><a href = "menu.html"> Menu </a> &nbsp;</li>
+            <li><a href = "music.html"> Music </a> &nbsp;</li>
+            <li><a href = "jobs.html"> Jobs </a></li>
+        </ul>
+    </nav>
+
+    <h2> Jobs at JavaJam</h2>
+
+    <p> Want to work at JavaJam? Fill out the form below to start your application. <br> Required fields are marked with an asterisk.
+
+    
+    
+    <form  method="post" action = "https://webdevbasics.net/scripts/javajam8.php">
+        <p> *Name <input type = "text">
+        <p> *E-mail <input type = "email">
+        <p> *Experience <input type = "text">
+        <p> Select job position 
+            <select>
+                <option value="null"></option>
+                <option value="Barista">Barista</option>
+                <option value="Waiter">Waiter</option>
+                <option value="Musician">Musician</option>
+                <option value="Manager">Manager</option>
+            </select>
+
+        <p> preferred Interview Data and Time
+            <input type = "datetime-local">
+        <p> Upload your photo
+            <input type ="file">
+        <br>
+        <br>
+        
+        <input type = "submit" value = "Apply Now"/>
+        </form>
+
+        <footer>
+            <h6>
+                Copyright&copy; 2021 JavaJam Coffee House<br>
+                <a href =>yourfirstname@yourlastname</a>
+            </h6>
+        </footer>
+    </div>
+    </body>
+    </html>
