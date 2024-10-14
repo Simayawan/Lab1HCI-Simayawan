@@ -1,0 +1,173 @@
+/* 
+  The following styles define the overall appearance of the webpage.
+
+  1. Body Style:
+     - Sets the font for the entire webpage to 'Open Sans' with a fallback to sans-serif.
+*/
+
+html{
+  font: 'Open Sans', sans-serif;
+}
+
+/* 
+  2. Header Style:
+     - Sets the font size of <h1> elements to 6em (very large).
+     - Centers the text horizontally on the page.
+*/
+h1{
+  font-size: 6em;
+  text-align: center;
+}
+
+/* 
+  3. Navigation Style:
+     - Sets the font size of navigation elements to 1.5em.
+     - Uses Flexbox to align items in the navigation bar with space between them.
+*/
+
+nav{
+  font-size: 1.5em;
+  display: flex;
+  justify-content: center;
+}
+
+/* 
+  4. List Style:
+     - Styles unordered lists (ul) and list items (li).
+     - Displays list items inline and resets their margin and padding to 0.
+*/
+
+ul{
+  list-style: none;
+}
+
+li{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+
+
+/* 
+  5. Unordered List Flexbox Style:
+     - Sets a flexible width of 50% maximum for the unordered list.
+     - Uses Flexbox to distribute list items evenly.
+*/
+
+ul{
+  flex-basis: 50%;
+  flex-direction: row;
+}
+
+/* 
+  6. Media Queries:
+     - These sections are for responsive design, changing the color of the <h1> element based on viewport width.
+     - The following media queries are currently commented out for future use.
+
+    Example:
+    @media (min-width: 600px) and (max-width: 800px) {
+        h1 {
+            color: purple;  /* Change <h1> color to purple between 600px and 800px */
+
+@media (min-width: 600px) and (max-width: 800px){
+  h1{
+    color: purple;
+  }
+}
+
+/* 
+  7. Default Color for <h1>:
+     - Sets the default color of <h1> elements to red.
+*/
+
+h1{
+  color:red
+}
+
+/* 
+  8. Media Queries for <h1> Color:
+     - Changes the color of <h1> based on minimum viewport widths.
+     - Adjusts the color progressively from red to green as the viewport increases in width.
+*/
+
+
+/* Changes <h1> color to orange at 500px and above */
+
+@media (min-width: 500px){
+  h1{
+    color: orange
+  }
+}
+
+/* Changes <h1> color to yellow at 1000px and above */
+
+@media (min-width: 1000px){
+  h1{
+    color: yellow
+  }
+}
+
+
+/* Changes <h1> color to green at 1500px and above */
+
+@media (min-width: 1500px){
+  h1{
+    color: green
+  }
+}
+
+
+/* 
+  9. Landscape Orientation Media Query:
+     - This section is currently commented out. 
+     - It would set the background color of the body to magenta when the device is in landscape orientation.
+*/
+
+
+
+/*
+@media (orientation: landscape) {
+    body {
+        background-color: magenta;
+    }
+}
+*/
+
+@media (orientation: landscape){
+  body{
+    background-color: magenta;
+  }
+}
+
+/* 
+  10. Responsive Design Adjustments:
+      - Adjusts <h1> font size and navigation layout for smaller screens.
+      - Changes <h1> size based on maximum viewport widths.
+*/
+
+/* Decreases <h1> font size to 4em below 768px */
+
+
+
+/* Changes navigation layout to a column */
+/* Centers navigation items */
+
+@media (max-width: 768px){
+  h1{
+    font-size: 4em;
+  }
+
+  nav{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Further decreases <h1> font size to 3em below 576px */
+
+
+@media (max-width: 576px){
+  h1{
+    font-size: 3em;
+  }
+}
