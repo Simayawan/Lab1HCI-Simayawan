@@ -1,0 +1,25 @@
+/* Sets the font for the entire page to 'Open Sans', falling back to a generic sans-serif font if unavailable */
+html{
+   font-family: 'Open Sans', sans-serif;
+}
+
+/* Centers the text horizontally for all <h1> elements on the page */
+h1{
+   text-align:center;
+}
+
+/* Styles the #container element:
+   - Sets a dark blue background color (#003049)
+   - Defines the width as 90% of the viewport width
+   - Fixes the height to 500 pixels
+   - Centers the container by setting automatic left and right margins
+   - Adds a solid border of 5 pixels with the same dark blue color as the background */
+
+#container{
+   background-color:#003049;
+   width: 90%;
+   height: 500px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 5px solid #003049;      
+}
