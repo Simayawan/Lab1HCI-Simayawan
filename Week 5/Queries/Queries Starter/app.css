@@ -1,0 +1,52 @@
+/* 
+  The following styles set the overall appearance of the webpage.
+
+  1. Body Style:
+     - Applies the 'Open Sans' font to the entire webpage with a fallback to a generic sans-serif font.
+*/
+
+html{
+  font-family: 'Open Sans, sans-serif';
+}
+
+/* 
+  2. Header Style:
+     - Sets the font size of <h1> elements to 6em, making it very large.
+     - Centers the text horizontally on the page.
+*/
+
+h1{
+  font-size: 6em;
+  text-align: center;
+}
+
+/* 
+  3. Navigation Style:
+     - Sets the font size of navigation elements (nav) to 1.5em for better visibility.
+*/
+
+nav{
+  font-size: 1.5em;
+}
+
+/* 
+  4. List Style:
+     - Styles unordered lists (ul) and list items (li).
+     - Displays list items inline, removing default margin and padding.
+*/
+
+
+
+/* Displays list items in a row */
+/* Removes default margin */
+/* Removes default padding */
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+}
