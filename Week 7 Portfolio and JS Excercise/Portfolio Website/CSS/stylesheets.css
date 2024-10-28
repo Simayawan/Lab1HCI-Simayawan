@@ -1,0 +1,69 @@
+nav a {
+    text-decoration: none;
+}
+
+.body{
+    margin: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1, h2, h3, nav {
+    text-align: center;
+}
+
+.img {
+    display: block;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+
+.content{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+
+.title{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    text-align: justify;
+}
+
+.skillsh2{
+    text-align: left;
+}
+
+.list{
+    text-align: left;
+}
+
+.uppertitle{
+    position: fixed;
+    background-color: beige;
+    display: block;
+    width: 100%;
+}
+
+.mainbody{
+    margin: auto;
+    padding-top: 5cm;
+    text-align: center;
+}
+
+b a{
+    text-decoration: none;
+    text-decoration: black;
+}
