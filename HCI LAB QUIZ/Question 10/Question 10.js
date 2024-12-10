@@ -1,0 +1,1 @@
+a.setAttribute("external-link", "https://newsite.com");
